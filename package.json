@@ -1,7 +1,7 @@
 {
   "name": "typeform-webhook-boilerplate",
   "version": "0.0.1",
-  "description": "Boilerplate for Typeform Webhooks",
+  "description": "Boilerplate project for Typeform Webhooks",
   "main": "lib",
   "scripts": {
     "start": "node .",
