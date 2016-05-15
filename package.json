@@ -1,0 +1,34 @@
+{
+  "name": "typeform-webhook-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for Typeform Webhooks",
+  "main": "lib",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "tunnel": "lt --port 8000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco Dias <francisco@baiodias.com> (http://franciscodias.net/)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "boom": "^3.1.3",
+    "hapi": "^13.4.0",
+    "hapi-swagger": "^5.1.0",
+    "inert": "^4.0.0",
+    "joi": "^8.1.0",
+    "pg": "^4.5.5",
+    "sequelize": "^3.23.1",
+    "vision": "^4.1.0"
+  },
+  "devDependencies": {
+    "localtunnel": "^1.8.1",
+    "nodemon": "^1.9.2",
+    "pre-commit": "^1.1.3",
+    "snazzy": "^4.0.0",
+    "standard": "^7.0.1"
+  }
+}
