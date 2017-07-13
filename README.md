@@ -1,18 +1,17 @@
-typeform-webhook-boilerplate
-===
+# typeform-webhook-boilerplate
 
-This is a simple boilerplate node project for [Typeform Webhooks](https://www.typeform.com/help/webhooks/). It stores the received responses on a Postgres database and lists them.
+A simple boilerplate node project for [Typeform Webhooks](https://www.typeform.com/help/webhooks/). It stores the received responses on a [PostgreSQL](https://www.postgresql.org/) database and lists them.
 
-## setup
+## Setup
 
- - Install Postgres and create a database called `typeform`. *If you're on OSX, I recommend using [Postgres.app](http://postgresapp.com/) and [Postico](https://eggerapps.at/postico/).*
+ - Install [PostgreSQL](https://www.postgresql.org/) and create a database called `typeform`. *If you're on OSX, I recommend using [Postgres.app](http://postgresapp.com/) and [Postico](https://eggerapps.at/postico/).*
 
 - Install dependencies:
 ```sh
 npm i
 ```
 
-## development
+### Development
 
 ```sh
 npm run dev
@@ -21,6 +20,14 @@ npm run dev
 npm run tunnel
 ```
 
-## deploy
+### Deploy
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+## Credits
+
+Built by [@fbaiodias](https://github.com/fbaiodias)
+
+#### Contributors
+
+[@evaame](https://github.com/evaame) - documentation
